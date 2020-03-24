@@ -1,0 +1,65 @@
+<header>
+	<div class="hero">
+	  <div class="hero-item">
+			<img alt="Mars Image" class="img-responsive cover" src="https://raw.githubusercontent.com/solodev/covid-hero-banner/master/covid_banners_1.jpg">
+			<div class="header-container">
+				<div class="header-content">
+					<h1>COVID-19 Updates</h1> 
+					<p>Get the latest news on the Coronavirus efforts from the city and county.</p>
+					<a class="btn btn-primary" href="#">Learn More</a>
+				</div>
+			</div>
+	  </div>
+	</div>
+</header>
+
+<style>
+header {
+	overflow: hidden;
+}
+.hero .hero-item img {
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+	object-position: top center;
+}
+.hero .hero-item .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero .hero-item .header-content {
+	top: 20%;
+	margin-left: 8rem;
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 473px;
+	width: 100%;
+	padding: 2rem;
+	position: absolute;
+	color: #fff;
+}
+.hero .hero-item .header-content p {
+	font-size: 18px;
+}
+.hero .hero-item .header-content .btn-primary {
+  background-color: #5302FE;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	margin-top: 15px;
+  padding: 15px;
+	display: inline-block;
+}
+.hero .hero-item .header-content .btn-primary:hover {
+    background-color: #250072;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+	.hero .hero-item .header-content {
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin: 0 auto;
+	}
+}
+</style>			
