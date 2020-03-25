@@ -38,6 +38,7 @@ The CSS utilizes the object-fit property to make sure the image scales properly 
 ```
 .covid-hero {
 	overflow: hidden;
+	font-family: Inter, sans-serif;
 }
 .covid-hero .hero .hero-item img {
 	width: 100%;
